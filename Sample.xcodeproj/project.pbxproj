@@ -14,6 +14,9 @@
 		DF67CC1229927B0600BAF87F /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC1129927B0600BAF87F /* SampleTests.swift */; };
 		DF67CC1C29927B0600BAF87F /* SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC1B29927B0600BAF87F /* SampleUITests.swift */; };
 		DF67CC1E29927B0600BAF87F /* SampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF67CC1D29927B0600BAF87F /* SampleUITestsLaunchTests.swift */; };
+		DFDDAB31299B803A00727897 /* KnifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDDAB30299B803A00727897 /* KnifeView.swift */; };
+		DFDDAB33299B805A00727897 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDDAB32299B805A00727897 /* BallView.swift */; };
+		DFDDAB35299B807C00727897 /* PillarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDDAB34299B807C00727897 /* PillarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		DF67CC1729927B0600BAF87F /* SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF67CC1B29927B0600BAF87F /* SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITests.swift; sourceTree = "<group>"; };
 		DF67CC1D29927B0600BAF87F /* SampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFDDAB30299B803A00727897 /* KnifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnifeView.swift; sourceTree = "<group>"; };
+		DFDDAB32299B805A00727897 /* BallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		DFDDAB34299B807C00727897 /* PillarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		DF67CBFF29927B0300BAF87F /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				DFDDAB2F299B7FD800727897 /* Model */,
+				DFDDAB2E299B7FCD00727897 /* View */,
+				DFDDAB2D299B7FC300727897 /* Controller */,
 				DF67CC0029927B0300BAF87F /* SampleApp.swift */,
-				DF67CC0229927B0300BAF87F /* ContentView.swift */,
 				DF67CC0429927B0500BAF87F /* Assets.xcassets */,
 				DF67CC0629927B0500BAF87F /* Preview Content */,
 			);
@@ -125,6 +133,31 @@
 				DF67CC1D29927B0600BAF87F /* SampleUITestsLaunchTests.swift */,
 			);
 			path = SampleUITests;
+			sourceTree = "<group>";
+		};
+		DFDDAB2D299B7FC300727897 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DFDDAB2E299B7FCD00727897 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF67CC0229927B0300BAF87F /* ContentView.swift */,
+				DFDDAB30299B803A00727897 /* KnifeView.swift */,
+				DFDDAB32299B805A00727897 /* BallView.swift */,
+				DFDDAB34299B807C00727897 /* PillarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DFDDAB2F299B7FD800727897 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDDAB31299B803A00727897 /* KnifeView.swift in Sources */,
 				DF67CC0329927B0300BAF87F /* ContentView.swift in Sources */,
 				DF67CC0129927B0300BAF87F /* SampleApp.swift in Sources */,
+				DFDDAB33299B805A00727897 /* BallView.swift in Sources */,
+				DFDDAB35299B807C00727897 /* PillarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
